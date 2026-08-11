@@ -1193,7 +1193,98 @@ nav{
 
 
 /* SECTION 6 */
+/* =========================
+   PROJECT SECTION - MOBILE
+========================= */
 
+.s6{
+    width: 100%;
+    justify-content: center;
+}
+
+.s6 > :first-child{
+    font-size: 40px;
+}
+
+.s6 .content{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.s6 .content .p1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+}
+
+/* LEFT / IMAGE */
+.s6 .content .left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* REMOVE DESKTOP ABSOLUTE POSITION */
+.s6 .content .left > :nth-child(1){
+    position: relative;
+    margin: 0;
+    width: 100%;
+    max-width: 340px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* IMAGE */
+.s6 .content .left .projectimg{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+}
+
+/* REMOVE EXTRA P */
+.s6 .content .left > :nth-child(1) > p{
+    display: none;
+    position: static;
+}
+
+/* RIGHT / CONTENT */
+.s6 .content .right{
+    width: 100%;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.s6 .content .right > :first-child{
+    font-size: 25px;
+    align-self: center;
+    text-align: center;
+}
+
+.s6 .content .right p{
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.s6 .content a{
+    padding: 8px 10px;
+}
+
+/* 
 .s6{
     justify-content: center;
 }
@@ -1241,7 +1332,7 @@ nav{
 
 .s6 .content a{
     padding: 7px;
-}
+} */
 
 
 
@@ -1441,7 +1532,99 @@ nav{
 
 /* SECTION 6 */
 
+
+/* =========================
+   PROJECT SECTION - MOBILE
+========================= */
+
 .s6{
+    width: 100%;
+    justify-content: center;
+}
+
+.s6 > :first-child{
+    font-size: 40px;
+}
+
+.s6 .content{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.s6 .content .p1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+}
+
+/* LEFT / IMAGE */
+.s6 .content .left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* REMOVE DESKTOP ABSOLUTE POSITION */
+.s6 .content .left > :nth-child(1){
+    position: relative;
+    margin: 0;
+    width: 100%;
+    max-width: 340px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* IMAGE */
+.s6 .content .left .projectimg{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+}
+
+/* REMOVE EXTRA P */
+.s6 .content .left > :nth-child(1) > p{
+    display: none;
+    position: static;
+}
+
+/* RIGHT / CONTENT */
+.s6 .content .right{
+    width: 100%;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.s6 .content .right > :first-child{
+    font-size: 25px;
+    align-self: center;
+    text-align: center;
+}
+
+.s6 .content .right p{
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.s6 .content a{
+    padding: 8px 10px;
+}
+
+/* .s6{
     justify-content: center;
 }
 
@@ -1488,7 +1671,7 @@ nav{
 
 .s6 .content a{
     padding: 7px;
-}
+} */
 
 
 
